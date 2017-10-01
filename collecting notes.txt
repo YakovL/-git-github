@@ -1,0 +1,5 @@
+First, this repo was created at github.
+Next, I've created a local repo (git init ; git remote add origin https://github.com/YakovL/-git-github.git),
+  created this file, added it (git add '.\collecting notes.txt' ; git commit -m "add the main file"),
+  pushed here (git push -u origin master ; an unexpected UI appeared for credentials input).
+Now, I've edited this file at github – that will be a new commit. Commiting directly to the master branch.
