@@ -1,4 +1,4 @@
-﻿History stuff:
+History stuff:
 First, this repo was created at github.
 Next, I've created a local repo (`git init`; `git remote add origin https://github.com/YakovL/-git-github.git`),
   created this file, added it (`git add '.\collecting notes.txt'`; `git commit -m "add the main file"`),
@@ -8,17 +8,19 @@ To update the local repo, I've used `git pull origin master`; updated this text 
  (`git commit -a -m "describe local repo updating"`); pushed again.
 
 Targets, questions, next steps:
-* learn how to update the local repo (this file is still empty there)
+* try stuff suggested by Mario, add branches with various updates to TWc core, make pull requests
 * learn how to make this file ~look formatted~:
 ** at github (man, I don't like that code bits look the same as ordinary text here, it's a git/github notes hub!)
 ** locally.. preferrably in form of a TiddlyWiki
 * simplify workflow: for now, editing requires an opened shell/cmd for git stuff, an editor for the file, optionally a file manager and also a browser if we want to check the result
+** what's more important, this is not automated, so I have to remember to push/pull after each edit
+** it's not handy to open shell/cmd after reopening a file from "recent" (see notepad++ extensions, though)
 
 Goals:
 * CS: ...
-* TW core: ...
-* MTS: ...
-* TW extensions: ...
+* TWc core: clean up the fork repo, add a branch for each proposed core change, make all pull requests
+* MTS: publish at GitHub + incorporate git support for content + secure autoupdate + [what if someone contributes?]
+* TWc extensions: publish at GitHub + update by request directly from TW (+MTS) + [what if someone contributes? especially to a cooked plugin]
 
 Other notes:
 * looks like github doesn't allow to put several edits to one commit, each file edit makes a commit
