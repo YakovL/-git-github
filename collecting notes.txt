@@ -1,9 +1,11 @@
-History stuff:
+﻿History stuff:
 First, this repo was created at github.
-Next, I've created a local repo (git init ; git remote add origin https://github.com/YakovL/-git-github.git),
-  created this file, added it (git add '.\collecting notes.txt' ; git commit -m "add the main file"),
-  pushed here (git push -u origin master ; an unexpected UI appeared for credentials input).
-Now, I've edited this file at github – made 3 commits. Commiting directly to the master branch.
+Next, I've created a local repo (`git init`; `git remote add origin https://github.com/YakovL/-git-github.git`),
+  created this file, added it (`git add '.\collecting notes.txt'`; `git commit -m "add the main file"`),
+  pushed to github (`git push -u origin master`; an unexpected UI appeared for credentials input).
+I've edited this file at github – made 3 commits. Commiting directly to the master branch.
+To update the local repo, I've used `git pull origin master`; updated this text accordingly; added and commited
+ (`git commit -a -m "describe local repo updating"`); pushed again.
 
 Targets, questions, next steps:
 * learn how to update the local repo (this file is still empty there)
