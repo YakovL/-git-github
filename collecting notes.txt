@@ -9,6 +9,7 @@ To update the local repo, I've used `git pull origin master`; updated this text 
 
 Targets, questions, next steps:
 * try stuff suggested by Mario, add branches with various updates to TWc core, make pull requests
+* create another GitHub account, "collaborate" on this doc (pull request - pull)
 * learn how to make this file ~look formatted~:
 ** at github (man, I don't like that code bits look the same as ordinary text here, it's a git/github notes hub!)
 ** locally.. preferrably in form of a TiddlyWiki
@@ -24,3 +25,7 @@ Goals:
 
 Other notes:
 * looks like github doesn't allow to put several edits to one commit, each file edit makes a commit
+* GitHub suggests adding to repository:
+** README: https://github.com/YakovL/-git-github/new/master?readme=1
+** LICENSE: https://github.com/YakovL/-git-github/new/master?filename=LICENSE.md
+** .gitignore: https://github.com/YakovL/-git-github/new/master?filename=.gitignore
