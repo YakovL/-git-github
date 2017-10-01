@@ -3,13 +3,20 @@ First, this repo was created at github.
 Next, I've created a local repo (git init ; git remote add origin https://github.com/YakovL/-git-github.git),
   created this file, added it (git add '.\collecting notes.txt' ; git commit -m "add the main file"),
   pushed here (git push -u origin master ; an unexpected UI appeared for credentials input).
-Now, I've edited this file at github – made a couple of commits. Commiting directly to the master branch.
+Now, I've edited this file at github – made 3 commits. Commiting directly to the master branch.
 
 Targets, questions, next steps:
 * learn how to update the local repo (this file is still empty there)
 * learn how to make this file ~look formatted~:
 ** at github (man, I don't like that code bits look the same as ordinary text here, it's a git/github notes hub!)
 ** locally.. preferrably in form of a TiddlyWiki
+* simplify workflow: for now, editing requires an opened shell/cmd for git stuff, an editor for the file, optionally a file manager and also a browser if we want to check the result
+
+Goals:
+* CS: ...
+* TW core: ...
+* MTS: ...
+* TW extensions: ...
 
 Other notes:
 * looks like github doesn't allow to put several edits to one commit, each file edit makes a commit
