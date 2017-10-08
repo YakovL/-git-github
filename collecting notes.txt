@@ -8,7 +8,10 @@ To update the local repo, I've used `git pull origin master`; updated this text 
  (`git commit -a -m "describe local repo updating"`); pushed again.
 
 Targets, questions, next steps:
-* try stuff suggested by Mario, add branches with various updates to TWc core, make pull requests
+* make the rest pull requests to TWc, merge the branches to master at YakovL/tiddlywiki;
+  try for this repo and describe: add branch at GitHub, copy to local (`git fetch --all`), add another branch locally,
+  copy to GitHub (`git push --all origin` or `git push origin branch_name`),
+  merge one branch locally, another one at GitHub, try to merge the 2
 * create another GitHub account, "collaborate" on this doc (pull request - pull)
 * learn how to make this file ~look formatted~:
 ** at github (man, I don't like that code bits look the same as ordinary text here, it's a git/github notes hub!)
@@ -19,7 +22,7 @@ Targets, questions, next steps:
 
 Goals:
 * CS: ...
-* TWc core: clean up the fork repo, add a branch for each proposed core change, make all pull requests
+* TWc core: add more branches (for the rest of ..), make all pull requests; try to cook
 * MTS: publish at GitHub + incorporate git support for content + secure autoupdate + [what if someone contributes?]
 * TWc extensions: publish at GitHub + update by request directly from TW (+MTS) + [what if someone contributes? especially to a cooked plugin]
 * create an introductory to git/github/+TWc doc for collaborators
