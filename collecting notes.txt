@@ -12,17 +12,20 @@ Targets, questions, next steps:
   try for this repo and describe: add branch at GitHub, copy to local (`git fetch --all`), add another branch locally,
   copy to GitHub (`git push --all origin` or `git push origin branch_name`),
   merge one branch locally, another one at GitHub, try to merge the 2
+* add a new branch of TWc and merge all fixes from separate branches there to further build my version
 * create another GitHub account, "collaborate" on this doc (pull request - pull)
 * learn how to make this file ~look formatted~:
 ** at github (man, I don't like that code bits look the same as ordinary text here, it's a git/github notes hub!)
 ** locally.. preferrably in form of a TiddlyWiki
 * simplify workflow: for now, editing requires an opened shell/cmd for git stuff, an editor for the file, optionally a file manager and also a browser if we want to check the result
 ** what's more important, this is not automated, so I have to remember to push/pull after each edit
+*** when working locally, checking changes at the remote repo seems to work when done like this: `git checkout master` if not there, `git fetch`, `git diff origin/master`
+*** not sure what to do with the opposite direction
 ** it's not handy to open shell/cmd after reopening a file from "recent" (see notepad++ extensions, though)
 
 Goals:
 * CS: ...
-* TWc core: add more branches (for the rest of ..), make all pull requests; try to cook
+* TWc core: make the rest fixes + pull requests; create a new branch to merge all the changes and try to cook that one
 * MTS: publish at GitHub + incorporate git support for content + secure autoupdate + [what if someone contributes?]
 * TWc extensions: publish at GitHub + update by request directly from TW (+MTS) + [what if someone contributes? especially to a cooked plugin]
 * create an introductory to git/github/+TWc doc for collaborators
