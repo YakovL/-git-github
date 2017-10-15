@@ -7,8 +7,8 @@ I've edited this file at github – made 3 commits. Commiting directly to the ma
 To update the local repo, I've used `git pull origin master`; updated this text accordingly; added and commited
   (`git commit -a -m "describe local repo updating"`); pushed again.
 To create a new branch locally, used `git checkout -b local-originated-branch`; used `git branch -D local-originated-branch` to delete that one.
-Now created another branch `small-change`. Made a change inside it. Switching branches using `git checkout branchName`
-  seemingly doesn't change the files.
+Now created another branch `small-change`. Made a change inside it. Switching between branches using `git checkout ...` doesn't
+  change the files. But, once I added these changes and committed to that branch, switching between branches does change files.
 
 Targets, questions, next steps:
 * make the rest pull requests to TWc, merge the branches to master at YakovL/tiddlywiki;
