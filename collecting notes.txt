@@ -11,6 +11,9 @@ Now created another branch `small-change`. Made a change inside it. Switching be
   change the files. But, once I added these changes and committed to that branch, switching between branches does change files.
   (haven't tested if this is due to adding or committing)
 Let's merge these changes to master. `git checkout master` – we're there now. `git merge small-change` – done!
+  (`git push` is now enough to update the remote repo).
+Now let's create a branch at GitHub and further merge it. Creating is simple: just select a new branch when saving edits.
+  Ouch. Nope, it is not: GitHub only allows to create a branch /and/ a pull request from here.
 
 Targets, questions, next steps:
 * make the rest pull requests to TWc, merge the branches to master at YakovL/tiddlywiki;
