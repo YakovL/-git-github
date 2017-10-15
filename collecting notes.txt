@@ -14,7 +14,7 @@ Let's merge these changes to master. `git checkout master` – we're there now. 
   (`git push` is now enough to update the remote repo).
 Now let's create a branch at GitHub and further merge it. Creating is simple: just select a new branch when saving edits.
   Ouch. Nope, it is not: GitHub only allows to create a branch /and/ a pull request from here. Branch may be delete from the code tab,
-  branches subtab. Let's create a branch from the main code page of the repo.
+  branches subtab. Let's create a branch from the main code page of the repo.. and make a small change.
 
 Targets, questions, next steps:
 * make the rest pull requests to TWc, merge the branches to master at YakovL/tiddlywiki;
