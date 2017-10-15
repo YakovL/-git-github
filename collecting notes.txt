@@ -9,6 +9,7 @@ To update the local repo, I've used `git pull origin master`; updated this text 
 To create a new branch locally, used `git checkout -b local-originated-branch`; used `git branch -D local-originated-branch` to delete that one.
 Now created another branch `small-change`. Made a change inside it. Switching between branches using `git checkout ...` doesn't
   change the files. But, once I added these changes and committed to that branch, switching between branches does change files.
+Let's merge these changes to master.
 
 Targets, questions, next steps:
 * make the rest pull requests to TWc, merge the branches to master at YakovL/tiddlywiki;
