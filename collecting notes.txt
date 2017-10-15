@@ -20,11 +20,18 @@ Now let's create a branch at GitHub and further merge it. Creating is simple: ju
   the branch we want to merge or the "Pull requests" tab. "base" is where we want merge to, and "compare" is where we want to merge from.
   There's a number of other stuff unnecessary when merging our own changes: several comment fields a new commit per merge.
 (created the YLTW branch of TWc, merged all the fixes commited for now from all branches to that one)
+Pulled YLTW branch to the local repo by using `git pull origin YLTW`.
+
+Goals:
+* CS: install git at VPN, ...
+* TWc core: make the rest fixes + pull requests; download YLTW to the local repo, try to cook that one
+* MTS: publish at GitHub + incorporate git support for content + secure autoupdate + [what if someone contributes?]
+* TWc extensions: publish at GitHub + update by request directly from TW (+MTS) + [what if someone contributes? especially to a cooked plugin]
+* create an introductory to git/github/+TWc doc for collaborators
 
 Targets, questions, next steps:
-* learn how to copy branches from local repo to GitHub and vice versa, test thoroughly
-  (related: `git fetch --all` , `git push --all origin` or `git push origin branch_name`)
-* create another GitHub account, "collaborate" on this doc (pull request - merge)
+* learn how to copy branches from local repo to GitHub and vice versa, what is local and remote branches, test thoroughly
+  (related: `git fetch --all`, `git pull origin branch_name`; `git push --all origin` or `git push origin branch_name`; `git branch [-r|-a]`)
 * learn how to make this file ~look formatted~:
 ** at github (man, I don't like that code bits look the same as ordinary text here, it's a git/github notes hub!)
 ** locally.. preferrably in form of a TiddlyWiki (merge with notes in studies!)
@@ -33,13 +40,7 @@ Targets, questions, next steps:
 *** when working locally, checking changes at the remote repo seems to work when done like this: (`git checkout master` if not there,) `git fetch`, `git diff origin/master`
 *** not sure what to do with the opposite direction
 ** it's not handy to open shell/cmd after reopening a file from "recent" (see notepad++ extensions, though)
-
-Goals:
-* CS: ...
-* TWc core: make the rest fixes + pull requests; download YLTW to the local repo, try to cook that one
-* MTS: publish at GitHub + incorporate git support for content + secure autoupdate + [what if someone contributes?]
-* TWc extensions: publish at GitHub + update by request directly from TW (+MTS) + [what if someone contributes? especially to a cooked plugin]
-* create an introductory to git/github/+TWc doc for collaborators
+* create another GitHub account, "collaborate" on this doc (do  pull request + merge  differ from those when merging my own branches?)
 
 Other notes:
 * looks like github doesn't allow to put several edits to one commit, each file edit makes a commit
