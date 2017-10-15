@@ -12,20 +12,22 @@ Now created another branch `small-change`. Made a change inside it. Switching be
   (haven't tested if this is due to adding or committing)
 Let's merge these changes to master. `git checkout master` – we're there now. `git merge small-change` – done!
   (`git push` is now enough to update the remote repo).
-Now let's create a branch at GitHub and further merge it. Creating is simple: just select a new branch when saving edits.
-  Ouch. Nope, it is not: GitHub only allows to create a branch /and/ a pull request from here. Branch may be delete from the code tab,
-  branches subtab. Let's create a branch from the main code page of the repo.. and make a small change.
+Now let's create a branch at GitHub and further merge it. Creating is simple: just select a new branch when saving edits. Ouch.
+  Nope, it is not: GitHub only allows to create a branch /and/ a pull request from here. Branch may be deleted from the code tab,
+  branches subtab.
+  Let's create a branch from the main code page of the repo.. and make a small change. At GitHub, unlike locally with git,
+  one can't merge directly from one branch to another, even both of them are in their repo – instead, first a pull request is done from
+  the branch we want to merge or the "Pull requests" tab. "base" is where we want merge to, and "compare" is where we want to merge from.
+  There's a number of other stuff unnecessary when merging our own changes: several comment fields a new commit per merge.
+(created the YLTW branch of TWc, merged all the fixes commited for now from all branches to that one)
 
 Targets, questions, next steps:
-* make the rest pull requests to TWc, merge the branches to master at YakovL/tiddlywiki;
-  try for this repo and describe: add branch at GitHub, copy to local (`git fetch --all`), add another branch locally,
-  copy to GitHub (`git push --all origin` or `git push origin branch_name`),
-  merge one branch locally, another one at GitHub, try to merge the 2
-* add a new branch of TWc and merge all fixes from separate branches there to further build my version
-* create another GitHub account, "collaborate" on this doc (pull request - pull)
+* learn how to copy branches from local repo to GitHub and vice versa, test thoroughly
+  (related: `git fetch --all` , `git push --all origin` or `git push origin branch_name`)
+* create another GitHub account, "collaborate" on this doc (pull request - merge)
 * learn how to make this file ~look formatted~:
 ** at github (man, I don't like that code bits look the same as ordinary text here, it's a git/github notes hub!)
-** locally.. preferrably in form of a TiddlyWiki
+** locally.. preferrably in form of a TiddlyWiki (merge with notes in studies!)
 * simplify workflow: for now, editing requires an opened shell/cmd for git stuff, an editor for the file, optionally a file manager and also a browser if we want to check the result
 ** what's more important, this is not automated, so I have to remember to push/pull after each edit
 *** when working locally, checking changes at the remote repo seems to work when done like this: (`git checkout master` if not there,) `git fetch`, `git diff origin/master`
@@ -34,7 +36,7 @@ Targets, questions, next steps:
 
 Goals:
 * CS: ...
-* TWc core: make the rest fixes + pull requests; create a new branch to merge all the changes and try to cook that one
+* TWc core: make the rest fixes + pull requests; download YLTW to the local repo, try to cook that one
 * MTS: publish at GitHub + incorporate git support for content + secure autoupdate + [what if someone contributes?]
 * TWc extensions: publish at GitHub + update by request directly from TW (+MTS) + [what if someone contributes? especially to a cooked plugin]
 * create an introductory to git/github/+TWc doc for collaborators
