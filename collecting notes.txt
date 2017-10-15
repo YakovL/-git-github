@@ -6,6 +6,7 @@ Next, I've created a local repo (`git init`; `git remote add origin https://gith
 I've edited this file at github – made 3 commits. Commiting directly to the master branch.
 To update the local repo, I've used `git pull origin master`; updated this text accordingly; added and commited
   (`git commit -a -m "describe local repo updating"`); pushed again.
+To create a new branch locally, used `git checkout -b local-originated-branch`; used `git branch -D local-originated-branch` to delete that one.
 
 Targets, questions, next steps:
 * make the rest pull requests to TWc, merge the branches to master at YakovL/tiddlywiki;
