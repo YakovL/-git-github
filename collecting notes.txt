@@ -5,7 +5,7 @@ Next, I've created a local repo (`git init`; `git remote add origin https://gith
   pushed to github (`git push -u origin master`; an unexpected UI appeared for credentials input).
 I've edited this file at github – made 3 commits. Commiting directly to the master branch.
 To update the local repo, I've used `git pull origin master`; updated this text accordingly; added and commited
- (`git commit -a -m "describe local repo updating"`); pushed again.
+  (`git commit -a -m "describe local repo updating"`); pushed again.
 
 Targets, questions, next steps:
 * make the rest pull requests to TWc, merge the branches to master at YakovL/tiddlywiki;
@@ -19,7 +19,7 @@ Targets, questions, next steps:
 ** locally.. preferrably in form of a TiddlyWiki
 * simplify workflow: for now, editing requires an opened shell/cmd for git stuff, an editor for the file, optionally a file manager and also a browser if we want to check the result
 ** what's more important, this is not automated, so I have to remember to push/pull after each edit
-*** when working locally, checking changes at the remote repo seems to work when done like this: `git checkout master` if not there, `git fetch`, `git diff origin/master`
+*** when working locally, checking changes at the remote repo seems to work when done like this: (`git checkout master` if not there,) `git fetch`, `git diff origin/master`
 *** not sure what to do with the opposite direction
 ** it's not handy to open shell/cmd after reopening a file from "recent" (see notepad++ extensions, though)
 
