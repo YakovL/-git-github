@@ -10,7 +10,7 @@ To create a new branch locally, used `git checkout -b local-originated-branch`; 
 Now created another branch `small-change`. Made a change inside it. Switching between branches using `git checkout ...` doesn't
   change the files. But, once I added these changes and committed to that branch, switching between branches does change files.
   (haven't tested if this is due to adding or committing)
-Let's merge these changes to master.
+Let's merge these changes to master. `git checkout master` – we're there now. `git merge small-change` – done!
 
 Targets, questions, next steps:
 * make the rest pull requests to TWc, merge the branches to master at YakovL/tiddlywiki;
