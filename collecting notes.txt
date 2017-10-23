@@ -4,8 +4,8 @@ Next, I've created a local repo (`git init`; `git remote add origin https://gith
   created this file, added it (`git add '.\collecting notes.txt'`; `git commit -m "add the main file"`),
   pushed to github (`git push -u origin master`; an unexpected UI appeared for credentials input).
 I've edited this file at github – made 3 commits. Commiting directly to the master branch.
-To update the local repo, I've used `git pull origin master`; updated this text accordingly; added and commited
-  (`git commit -a -m "describe local repo updating"`); pushed again.
+To update the local repo, I've used `git pull origin master` (params are "from where", "what"); updated this text accordingly;
+  added and commited (`git commit -a -m "describe local repo updating"`); pushed again.
 To create a new branch locally, used `git checkout -b local-originated-branch`; used `git branch -D local-originated-branch` to delete that one.
 Now created another branch `small-change`. Made a change inside it. Switching between branches using `git checkout ...` doesn't
   change the files. But, once I added these changes and committed to that branch, switching between branches does change files.
