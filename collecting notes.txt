@@ -23,8 +23,8 @@ Now let's create a branch at GitHub and further merge it. Creating is simple: ju
 Pulled YLTW branch to the local repo by using `git pull origin YLTW`.
 
 Goals:
-* CS: install git at VPN, ...
-* TWc core: make the rest fixes + pull requests; download YLTW to the local repo, try to cook that one
+* CS: install git at VPN, learn how to ~push there (install gitlab if necessary), set up "1 dev + 1 ~PM" workflow; ...
+* TWc core: download YLTW to the local repo, try to cook that one; make the rest fixes + pull requests
 * MTS: publish at GitHub + incorporate git support for content + secure autoupdate + [what if someone contributes?]
 * TWc extensions: publish at GitHub + update by request directly from TW (+MTS) + [what if someone contributes? especially to a cooked plugin]
 * create an introductory to git/github/+TWc doc for collaborators
