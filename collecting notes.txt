@@ -23,9 +23,9 @@ Now let's create a branch at GitHub and further merge it. Creating is simple: ju
 Pulled YLTW branch to the local repo by using `git pull origin YLTW`.
 
 Goals:
-* CS: install git at VPN, learn how to ~push there (install gitlab if necessary), set up "1 dev + 1 ~PM" workflow; ...
 * TWc core: download YLTW to the local repo, try to cook that one; make the rest fixes + pull requests
 * MTS: publish at GitHub + incorporate git support for content + secure autoupdate + [what if someone contributes?]
+* CS: install git at VPN, learn how to ~push there (install gitlab if necessary), set up "1 dev + 1 ~PM" workflow; ...
 * TWc extensions: publish at GitHub + update by request directly from TW (+MTS) + [what if someone contributes? especially to a cooked plugin]
 * create an introductory to git/github/+TWc doc for collaborators
 
@@ -35,12 +35,14 @@ Targets, questions, next steps:
 * learn how to make this file ~look formatted~:
 ** at github (man, I don't like that code bits look the same as ordinary text here, it's a git/github notes hub!)
 ** locally.. preferrably in form of a TiddlyWiki (merge with notes in studies!)
-* simplify workflow: for now, editing requires an opened shell/cmd for git stuff, an editor for the file, optionally a file manager and also a browser if we want to check the result
+* simplify workflow: for now, editing requires an opened shell/cmd for git stuff, an editor for the file, optionally a file manager (at least we have to navigate to the project via shell/cmd) and also a browser if we want to check the result
 ** what's more important, this is not automated, so I have to remember to push/pull after each edit
 *** when working locally, checking changes at the remote repo seems to work when done like this: (`git checkout master` if not there,) `git fetch`, `git diff origin/master`
 *** not sure what to do with the opposite direction
 *** automate!  (use cron or an analogue)
 ** it's not handy to open shell/cmd after reopening a file from "recent" (see notepad++ extensions, though)
+* learn how to work with git for folders with binary, analogues for DBs/coding; if there's sane analogues of git for text files
+** describe in more details my idea of ~git for binaries with history support~
 * create another GitHub account, "collaborate" on this doc (do  pull request + merge  differ from those when merging my own branches?)
 
 Other notes:
@@ -49,3 +51,6 @@ Other notes:
 ** README: https://github.com/YakovL/-git-github/new/master?readme=1
 ** LICENSE: https://github.com/YakovL/-git-github/new/master?filename=LICENSE.md
 ** .gitignore: https://github.com/YakovL/-git-github/new/master?filename=.gitignore
+* "stupid" questions, misconceptions that I had:
+** is it possible to push certain commits instead of a whole branch?
+** git push origin master : origin = to, master = from (name of local repo)
