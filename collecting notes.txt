@@ -39,6 +39,7 @@ Targets, questions, next steps:
 ** what's more important, this is not automated, so I have to remember to push/pull after each edit
 *** when working locally, checking changes at the remote repo seems to work when done like this: (`git checkout master` if not there,) `git fetch`, `git diff origin/master`
 *** not sure what to do with the opposite direction
+*** automate!  (use cron or an analogue)
 ** it's not handy to open shell/cmd after reopening a file from "recent" (see notepad++ extensions, though)
 * create another GitHub account, "collaborate" on this doc (do  pull request + merge  differ from those when merging my own branches?)
 
