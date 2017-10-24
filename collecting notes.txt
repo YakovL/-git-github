@@ -46,6 +46,11 @@ Targets, questions, next steps:
 * create another GitHub account, "collaborate" on this doc (do  pull request + merge  differ from those when merging my own branches?)
 
 Other notes:
+* some options for creating project central repo (aside GitHub):
+** usually the server that allows to pull from/push to etc is called git-service
+** it's possible to setup a git-service with git only, see https://git-scm.com/book/ru/v1/Git-на-сервере, but there won't be any web-interface and few peolpe do so these days
+** one of the most popular self-hosted git-services: GitLab. There's also a non-self-hosted version (https://about.gitlab.com), free version has some ~minor limitations but allows to host private repos
+** another option is Gogs (https://habrahabr.ru/company/selectel/blog/305422/ claims it requires much less resources than GitLab)
 * looks like github doesn't allow to put several edits to one commit, each file edit makes a commit
 * GitHub suggests adding to repository:
 ** README: https://github.com/YakovL/-git-github/new/master?readme=1
