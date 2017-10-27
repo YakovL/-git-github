@@ -24,9 +24,10 @@ Pulled YLTW branch to the local repo by using `git pull origin YLTW`.
 
 Goals:
 * TWc core: download YLTW to the local repo, try to cook that one; make the rest fixes + pull requests
-* MTS: publish at GitHub + incorporate git support for content + secure autoupdate + [what if someone contributes?]
+* MTS: publish at GitHub + [.oO what if someone contributes?] + implement secure autoupdate of MTS from the repo;
+  incorporate git support for content: sync with remote server with git support (push, autopull) [.oO more scenarios]
 * CS: install git at VPN, learn how to ~push there (install gitlab if necessary), set up "1 dev + 1 ~PM" workflow; ...
-* TWc extensions: publish at GitHub + update by request directly from TW (+MTS) + [what if someone contributes? especially to a cooked plugin]
+* TWc extensions: publish at GitHub + [.oO what if someone contributes? especially to a cooked plugin] + update by request directly from TW (+MTS)
 * create an introductory to git/github/+TWc doc for collaborators
 
 Targets, questions, next steps:
@@ -37,7 +38,8 @@ Targets, questions, next steps:
 ** locally.. preferrably in form of a TiddlyWiki (merge with notes in studies!)
 * simplify workflow: for now, editing requires an opened shell/cmd for git stuff, an editor for the file, optionally a file manager (at least we have to navigate to the project via shell/cmd) and also a browser if we want to check the result
 ** what's more important, this is not automated, so I have to remember to push/pull after each edit
-*** when working locally, checking changes at the remote repo seems to work when done like this: (`git checkout master` if not there,) `git fetch`, `git diff origin/master`
+*** when working locally, checking changes at the remote repo seems to work when done like this:
+    (`git checkout master` if not there,) `git fetch`, `git diff origin/master`
 *** not sure what to do with the opposite direction
 *** automate!  (use cron or an analogue)
 ** it's not handy to open shell/cmd after reopening a file from "recent" (see notepad++ extensions, though)
@@ -49,7 +51,8 @@ Other notes:
 * some options for creating project central repo (aside GitHub):
 ** usually the server that allows to pull from/push to etc is called git-service
 ** it's possible to setup a git-service with git only, see https://git-scm.com/book/ru/v1/Git-на-сервере, but there won't be any web-interface and few peolpe do so these days
-** one of the most popular self-hosted git-services: GitLab. There's also a non-self-hosted version (https://about.gitlab.com), free version has some ~minor limitations but allows to host private repos
+** one of the most popular self-hosted git-services: GitLab. There's also a non-self-hosted version (https://about.gitlab.com),
+   free version has some ~minor limitations but allows to host private repos
 ** another option is Gogs (https://habrahabr.ru/company/selectel/blog/305422/ claims it requires much less resources than GitLab)
 * looks like github doesn't allow to put several edits to one commit, each file edit makes a commit
 * GitHub suggests adding to repository:
