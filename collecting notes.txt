@@ -31,6 +31,7 @@ Goals:
 * create an introductory to git/github/+TWc doc for collaborators
 
 Targets, questions, next steps:
+* merge/remove elder notes (in material_flows)
 * learn how to copy branches from local repo to GitHub and vice versa, what is local and remote branches, test thoroughly
   (related: `git fetch --all`, `git pull origin branch_name`; `git push --all origin` or `git push origin branch_name`; `git branch [-r|-a]`)
 * learn how to make this file ~look formatted~:
