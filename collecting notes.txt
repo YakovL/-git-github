@@ -21,9 +21,11 @@ Now let's create a branch at GitHub and further merge it. Creating is simple: ju
   There's a number of other stuff unnecessary when merging our own changes: several comment fields a new commit per merge.
 (created the YLTW branch of TWc, merged all the fixes commited for now from all branches to that one)
 Pulled YLTW branch to the local repo by using `git pull origin YLTW`.
+Used `git branch` to see what branch is used ("remote branches" are shown with `git branch -a` and YLTW is among them).
+  Used `git checkout YLTW` to change the branch (now that branch is listed among "non-remote" branches).
 
 Goals:
-* TWc core: download YLTW to the local repo, try to cook that one; make the rest fixes + pull requests
+* TWc core: try to cook YLTW in the local repo; make the rest fixes + pull requests
 * MTS: publish at GitHub + [.oO what if someone contributes?] + implement secure autoupdate of MTS from the repo;
   incorporate git support for content: sync with remote server with git support (push, autopull) [.oO more scenarios]
 * CS: install git at VPN, learn how to ~push there (install gitlab if necessary), set up "1 dev + 1 ~PM" workflow; ...
