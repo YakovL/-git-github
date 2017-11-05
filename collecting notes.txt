@@ -58,6 +58,9 @@ Other notes:
    free version has some ~minor limitations but allows to host private repos
 ** another option is Gogs (https://habrahabr.ru/company/selectel/blog/305422/ claims it requires much less resources than GitLab)
 * looks like github doesn't allow to put several edits to one commit, each file edit makes a commit
+* some more sources about git/github:
+** https://ancatmara.gitbooks.io/digital-literacy/chapter1.html (also describes usage of some tools)
+** https://git-scm.com/book/ru/v1 (may be useful if more consistency needed)
 * GitHub suggests adding to repository:
 ** README: https://github.com/YakovL/-git-github/new/master?readme=1
 ** LICENSE: https://github.com/YakovL/-git-github/new/master?filename=LICENSE.md
