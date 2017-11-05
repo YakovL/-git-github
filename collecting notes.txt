@@ -27,8 +27,9 @@ Used `git branch` to see what branch is used ("remote branches" are shown with `
 Goals:
 * TWc core: try to cook YLTW in the local repo; make the rest fixes + pull requests
 * MTS: publish at GitHub + [.oO what if someone contributes?] + implement secure autoupdate of MTS from the repo;
-  incorporate git support for content: sync with remote server with git support (push, autopull) [.oO more scenarios]
-* CS: install git at VPN, learn how to ~push there (install gitlab if necessary), set up "1 dev + 1 ~PM" workflow; ...
+  incorporate git support for content: sync with remote server with git support (push, autopull), make this file be synced as a tiddler
+  (probably as an external one) in studies [.oO more scenarios]
+* CS: install git at VPN, make it possible to ~push there (install GitLab/Gogs/git on server), set up "1 dev + 1 ~PM" workflow; ...
 * TWc extensions: publish at GitHub + [.oO what if someone contributes? especially to a cooked plugin] + update by request directly from TW (+MTS)
 * create an introductory to git/github/+TWc doc for collaborators
 
@@ -59,8 +60,10 @@ Other notes:
 ** another option is Gogs (https://habrahabr.ru/company/selectel/blog/305422/ claims it requires much less resources than GitLab)
 * looks like github doesn't allow to put several edits to one commit, each file edit makes a commit
 * some more sources about git/github:
-** https://ancatmara.gitbooks.io/digital-literacy/chapter1.html (also describes usage of some tools)
-** https://git-scm.com/book/ru/v1 (may be useful if more consistency needed)
+** describes usage of some tools and may have some other nice stuff: https://ancatmara.gitbooks.io/digital-literacy/chapter1.html
+** a book, may be useful if more consistency needed: https://git-scm.com/book/ru/v1
+** nice git tutorial in Russian: https://proglib.io/p/system-git/
+** an ok git + github videotutorial (starts with github and workflow): https://www.youtube.com/watch?v=oPpnCh7InLY&list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV&index=2
 * GitHub suggests adding to repository:
 ** README: https://github.com/YakovL/-git-github/new/master?readme=1
 ** LICENSE: https://github.com/YakovL/-git-github/new/master?filename=LICENSE.md
