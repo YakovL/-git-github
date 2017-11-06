@@ -59,11 +59,12 @@ Other notes:
    free version has some ~minor limitations but allows to host private repos
 ** another option is Gogs (https://habrahabr.ru/company/selectel/blog/305422/ claims it requires much less resources than GitLab)
 * looks like github doesn't allow to put several edits to one commit, each file edit makes a commit
-* some more sources about git/github:
+* some more sources about git/github/git workflow:
 ** describes usage of some tools and may have some other nice stuff: https://ancatmara.gitbooks.io/digital-literacy/chapter1.html
 ** a book, may be useful if more consistency needed: https://git-scm.com/book/ru/v1
 ** nice git tutorial in Russian: https://proglib.io/p/system-git/
 ** an ok git + github videotutorial (starts with github and workflow): https://www.youtube.com/watch?v=oPpnCh7InLY&list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV&index=2
+** git workflows in comparison: https://www.atlassian.com/git/tutorials/comparing-workflows
 * GitHub suggests adding to repository:
 ** README: https://github.com/YakovL/-git-github/new/master?readme=1
 ** LICENSE: https://github.com/YakovL/-git-github/new/master?filename=LICENSE.md
