@@ -29,6 +29,7 @@ To build current TWc core in the official repo, used `git remote add official ht
 Goals:
 * TWc core: make the rest fixes + pull requests; update tests (try in another branch); improve tools to build empty.html and get no errors
 * CS: install git at VPN, make it possible to ~push there (install GitLab/Gogs/git on server), set up "1 dev + 1 ~PM" workflow; ...
+* get some practice of collaboration (that's where all those rebase, revert, reset and other fancy techniques may become quite demanded)
 * MTS: publish at GitHub + [.oO what if someone contributes?] + implement secure autoupdate of MTS from the repo;
   incorporate git support for content: sync with remote server with git support (push, autopull), make this file be synced as a tiddler
   (probably as an external one) in studies [.oO more scenarios]
