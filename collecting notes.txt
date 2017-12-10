@@ -64,6 +64,7 @@ Other notes:
 ** another option is Gogs (https://habrahabr.ru/company/selectel/blog/305422/ claims it requires much less resources than GitLab)
 * looks like github doesn't allow to put several edits to one commit, each file edit makes a commit
 * some more sources about git/github/git workflow:
+** interactive git learning, looks really promising, deserves a try: https://learngitbranching.js.org/
 ** describes usage of some tools and may have some other nice stuff: https://ancatmara.gitbooks.io/digital-literacy/chapter1.html
 ** "main" book, may be useful if more consistency needed: https://git-scm.com/book/ru/v1 (go on with 1.3)
 ** nice git tutorial in Russian: https://proglib.io/p/system-git/
