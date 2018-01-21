@@ -25,6 +25,8 @@ Used `git branch` to see what branch is used ("remote branches" are shown with `
   Used `git checkout YLTW` to change the branch (now that branch is listed among "non-remote" branches).
 To build current TWc core in the official repo, used `git remote add official https://github.com/TiddlyWiki/tiddlywiki.git`,
   `git fetch official master` and `git checkout remotes/official/master` and built that.
+While updating TW tests, I needed to search through commit comments. I've done that using `git log --all -i --grep="JSSpec"` (`-i` for
+  case insensitive). Reviewing certain commits is more convenient through GitHub but `git show <hash>` can be used as well.
 
 Goals:
 * TWc core: make the rest fixes + pull requests; update tests (try in another branch); improve tools to build empty.html and get no errors
