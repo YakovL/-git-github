@@ -48,6 +48,7 @@ Goals:
 
 Targets, questions, next steps:
 * learn rebase (https://habrahabr.ru/post/161009/), simplify graphs: https://github.com/YakovL/tiddlywiki/network
+** try `git rebase upstream/master` in those branches
 * learn how to copy branches from local repo to GitHub and vice versa, what is local and remote branches, test thoroughly
   (related: `git fetch --all`, `git pull origin branch_name`; `git push --all origin` or `git push origin branch_name`; `git branch [-r|-a]`)
 * learn how to make this file ~look formatted~:
