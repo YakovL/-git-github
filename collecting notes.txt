@@ -27,9 +27,17 @@ To build current TWc core in the official repo, used `git remote add official ht
   `git fetch official master` and `git checkout remotes/official/master` and built that.
 While updating TW tests, I needed to search through commit comments. I've done that using `git log --all -i --grep="JSSpec"` (`-i` for
   case insensitive). Reviewing certain commits is more convenient through GitHub but `git show <hash>` can be used as well.
+Remove local branch: `git branch -d extend-filtering`; local remote-tracking branch: `git branch -dr origin/extend-filtering`.
+  See https://stackoverflow.com/a/23961231/3995261 for more details.
+Merging new stuff from updated upstream happened to be more tricky than I expected: when I've done "merge" via GitHub, instead of real
+  merging it created a new commit so my master branch became 1 commit ahead, 3 begind upstream/master. To fix that, I had to pull
+  my master to local, `git reset --hard 5a53e55` (first 7 symbols of hash), `git push -f origin master`, then `git fetch official`
+  (official for upstream),  `git merge official/master`, then push back (masters are even after that). Moreover, such local merging
+  worked even for other branches with commits ahead (`git checkout fix-macro-params-escaping`, `git merge official/master`,
+  `git push origin fix-macro-params-escaping`).
 
 Goals:
-* TWc core: make the rest fixes + pull requests; update tests (try in another branch); improve tools to build empty.html and get no errors
+* TWc core: make the rest fixes + pull requests; update tests (try in another branch); improve tools to build empty.html.. faster?
 * CS: install git at VPN, make it possible to ~push there (install GitLab/Gogs/git on server), set up "1 dev + 1 ~PM" workflow; ...
 * get some practice of collaboration (that's where all those rebase, revert, reset and other fancy techniques may become quite demanded)
 * MTS: publish at GitHub + [.oO what if someone contributes?] + implement secure autoupdate of MTS from the repo;
@@ -39,7 +47,7 @@ Goals:
 * create an introductory to git/github/+TWc doc for collaborators
 
 Targets, questions, next steps:
-* merge/remove elder notes (in material_flows)
+* learn rebase (https://habrahabr.ru/post/161009/), simplify graphs: https://github.com/YakovL/tiddlywiki/network
 * learn how to copy branches from local repo to GitHub and vice versa, what is local and remote branches, test thoroughly
   (related: `git fetch --all`, `git pull origin branch_name`; `git push --all origin` or `git push origin branch_name`; `git branch [-r|-a]`)
 * learn how to make this file ~look formatted~:
