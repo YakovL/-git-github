@@ -24,5 +24,5 @@ Once we have pulled/cloned the repo, we may want to change something. It's alway
 
 and do stuff there.
 
-Finally, if we want to make some pull requests via GitHub/(GitLab/..?), we should fork the repo there first, clone our fork and
+Finally, if we want to make some pull requests via GitHub/(GitLab/..?), we should fork the repo there first, pull/clone our fork and
 work with it. This can be done later, but to use name `origin` for it, we shouldn't use this name for the main repo (use `upstream`).
