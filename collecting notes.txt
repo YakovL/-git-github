@@ -79,6 +79,7 @@ Other notes:
 ** describes usage of some tools and may have some other nice stuff: https://ancatmara.gitbooks.io/digital-literacy/chapter1.html
 ** "main" book, may be useful if more consistency needed: https://git-scm.com/book/ru/v1 (go on with 1.3)
 ** nice git tutorial in Russian: https://proglib.io/p/system-git/
+** a collection of notes in Russian, definitely not for beginners but to learn smth new: https://www.calculate-linux.ru/main/ru/git
 ** an ok git + github videotutorial (starts with github and workflow): https://www.youtube.com/watch?v=oPpnCh7InLY&list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV&index=2
 ** git workflows in comparison: https://www.atlassian.com/git/tutorials/comparing-workflows
 * GitHub suggests adding to repository:
