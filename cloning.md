@@ -6,7 +6,7 @@ So if we found a nice repo and we want to get its contents we may go (in an appr
 
 Now "official" is not a conventional name for a repo. Instead, usually one of the following names are used: `origin` or `upstream`.
 The latter is a preferrable name when the repo is an actively updated central repo (not our fork). If it's our fork or we don't expect it
-to get updated or we're not going to make any changes of our own (why limit ourselves?), naming it `origin` is fine.
+to get updated (a bold assumption) or we're not going to make any changes of our own (why limit ourselves?), naming it `origin` is fine.
 Note that we're pulling only the `master` branch here while we may fetch all of them instead:
 
     git fetch --all
