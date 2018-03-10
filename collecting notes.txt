@@ -37,7 +37,8 @@ Merging new stuff from updated upstream happened to be more tricky than I expect
   `git push origin fix-macro-params-escaping`).
 
 Goals:
-* TWc core: make the rest fixes + pull requests; update tests (try in another branch); improve tools to build empty.html.. faster?
+* TWc core: learn git tags (for versions), GH releases, milestones in issues [in which release is planned to solve?]; release 2.9.1;
+  make the rest fixes + pull requests; update tests (try in another branch); improve tools to build empty.html.. faster?
 * CS: install git at VPN, make it possible to ~push there (install GitLab/Gogs/git on server), set up "1 dev + 1 ~PM" workflow; ...
 * get some practice of collaboration (that's where all those rebase, revert, reset and other fancy techniques may become quite demanded)
 * MTS: publish at GitHub + [.oO what if someone contributes?] + implement secure autoupdate of MTS from the repo;
