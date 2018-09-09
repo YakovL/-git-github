@@ -26,3 +26,6 @@ and do stuff there.
 
 Finally, if we want to make some pull requests via GitHub/(GitLab/..?), we should fork the repo there first, pull/clone our fork and
 work with it. This can be done later, but to use name `origin` for it, we shouldn't use this name for the main repo (use `upstream`).
+If we don't believe we'll propose only one change to the repo, we have to always create a branch from our master, add changes, make a PR
+to the upstream and once it's accepted, merge to our master branch. Never add changes directly to our master since GH considers PR
+as a separate commit hence our master won't be even with upstream after PR.
